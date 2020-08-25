@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- content styling -->
+
+ <style>
+        
+   .containercontent {
+         width:100%;
+         height: 300px;
+     overflow:hidden;
+     background:lightgrey;
+     margin:30px auto;
+     padding: 10px 5px;
+     border-radius:25px;
+                 font-size: 34px;
+                 
+}
+.containercontent ul{
+  padding :0px;
+  margin:10px;
+}
+
+
+.containercontent ul li{
+  list-style:none;
+  float:left;
+  width:20%;
+  height:200px;
+  background-color:white;
+  margin:5px 5px 0px 5px;
+        border-radius: 25px;
+  
+}
+.containercontent ul li .title{
+         width:auto;
+     height:100px;
+     line-height:250px;
+     background:white;
+     text-align:center;
+     background-image: url('image.jpg');
+     background-size: 100px 100px;
+     
+     
+     }
+     
+
+     div.h1{
+     width:auto;
+     height:100px;
+     line-height:45px;
+     background:white;
+     text-align:center;
+     border-radius:15px;
+     
+     }
+     div.content{
+     width:70%;
+     height:100px;
+     line-height:45px;
+     background:white;
+     border:2px solid#000000;
+     border-radius:15px;
+    
+    
+     text-align:center;
+     
+     }
+     button.attempt {
+     background-color:darkblue;
+     color:white;
+     
+     margin: -5px 100px -5px 100px;
+     border-radius:4px;
+     }
+                  button.more {
+     background-color:darkblue;
+     color:white;
+     border-radius:4px;
+     }
+               
+                 p.ques{
+                     font-size:20px;
+                     margin:-15px 15px 35px 5px;
+                 }
+                 p.top{
+                  font-size:20px;
+                     margin:60px 2px 25px 0px;   
+                 }
+                 hr{
+                     width: auto;
+                     border-top: 1px solid black ;
+                     margin: -30px 1px 25px 1px;
+                 }
+     
+/*end content*/
+
+/*<!-- HMMMMMM -->*/
+
+<style>
+body {
+  margin-left: 0px;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
+<!-- end HMMMMMM -->
+<style>
+
+* {
+  margin: 0px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F0F0F0;
+  font-size: 15px;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+}
+.content {
+  height: 50px;
+}
+a { text-decoration: none; }
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-fostrap {
+  display: block;
+  margin-bottom: 15px 0;
+  background: #03A9F4;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 3px;
+}
+
+.nav-fostrap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.nav-fostrap li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  font-size: 14;
+  color: #def1f0;
+}
+
+.nav-fostrap li a {
+  padding: 15px 20px;
+  font-size: 14;
+  color: #def1f0;
+  display: inline-block;
+  outline: 0;
+  font-weight: 400;
+}
+
+.nav-fostrap li:hover ul.dropdown { display: block; }
+
+.nav-fostrap li ul.dropdown {
+  position: absolute;
+  display: none;
+  width: 200px;
+  background: #2980B9;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  padding-top: 0;
+}
+
+.nav-fostrap li ul.dropdown li {
+  display: block;
+  list-style-type: none;
+}
+
+.nav-fostrap li ul.dropdown li a {
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  font-weight: 400;
+}
+
+.nav-fostrap li ul.dropdown li:last-child a { border-bottom: none; }
+
+.nav-fostrap li:hover a {
+  background: #2980B9;
+  color: #fff !important;
+}
+
+.nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }
+
+.nav-fostrap li ul.dropdown li:hover a { background: rgba(0,0,0, .1); }
+
+.nav-fostrap li ul.dropdown li:first-child:hover a { border-radius: 0; }
+
+.nav-fostrap li:hover .arrow-down { border-top: 5px solid #fff; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #def1f0;
+  position: relative;
+  top: 15px;
+  right: -5px;
+  content: '';
+}
+.title-mobile {
+  display: none;
+}
+ @media only screen and (max-width:900px) {
+
+.nav-fostrap {
+  background: #fff;
+  width: 200px;
+  height: 100%;
+  display: block;
+  position: fixed;
+  left: -200px;
+  top: 0px;
+  -webkit-transition: left 0.25s ease;
+  -moz-transition: left 0.25s ease;
+  -ms-transition: left 0.25s ease;
+  -o-transition: left 0.25s ease;
+  transition: left 0.25s ease;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.title-mobile {
+  position: fixed;
+  display: block;
+    top: 10px;
+    font-size: 20px;
+    left: 100px;
+    right: 100px;
+    text-align: center;
+    color: #FFF;
+}
+.title-mobile1 {
+  position: fixed;
+  display: block;
+    top: 10px;
+    font-size: 20px;
+    left: 100px;
+    right: 100px;
+    text-align: right;
+    color: #FFF;
+}
+.nav-fostrap.visible {
+  left: 0px;
+  -webkit-transition: left 0.25s ease;
+  -moz-transition: left 0.25s ease;
+  -ms-transition: left 0.25s ease;
+  -o-transition: left 0.25s ease;
+  transition: left 0.25s ease;
+}
+
+.nav-bg-fostrap {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #03A9F4;
+  padding: 12px 0 0 10px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.nav-bg-fostrap1 {
+  float: right;
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #03A9F4;
+  padding: 12px 0 0 10px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.navbar-fostrap {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+}
+
+.navbar-fostrap span {
+  height: 2px;
+  background: #fff;
+  margin: 5px;
+  display: block;
+  width: 20px;
+}
+
+.navbar-fostrap span:nth-child(2) { width: 20px; }
+
+.navbar-fostrap span:nth-child(3) { width: 20px; }
+
+.nav-fostrap ul { padding-top: 50px; }
+
+.nav-fostrap li { display: block; }
+
+.nav-fostrap li a {
+  display: block;
+  color: #505050;
+  font-weight: 600;
+}
+
+.nav-fostrap li:first-child:hover a { border-radius: 0; }
+
+.nav-fostrap li ul.dropdown { position: relative; }
+
+.nav-fostrap li ul.dropdown li a {
+  background: #2980B9 !important;
+  border-bottom: none;
+  color: #fff !important;
+}
+
+.nav-fostrap li:hover a {
+  background: #03A9F4;
+  color: #fff !important;
+}
+
+.nav-fostrap li ul.dropdown li:hover a {
+  background: rgba(0,0,0,.1); !important;
+  color: #fff !important;
+}
+
+.nav-fostrap li ul.dropdown li a { padding: 10px 10px 10px 30px; }
+
+.nav-fostrap li:hover .arrow-down { border-top: 5px solid #fff; }
+
+.arrow-down {
+  border-top: 5px solid #505050;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.cover-bg {
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+}
+ @media only screen and (max-width:1199px) {
+
+.container { width: 100%; }
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+</style>
+</head>
+<body>
+
+
+<div id="main">
+  <div class="container">
+   
+    <nav>
+      <div class="nav-fostrap">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Web Design<span ></span></a>
+           <!-- <ul class="dropdown">
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">Javascript</a></li>
+              <li><a href="">JQuery</a></li>
+            </ul>-->
+          </li>
+          <li><a href="" >Blogger<span></span></a>
+           
+          </li>
+          <li><a href="" >SEO<span></span></a>
+                    </li>
+           
+        </ul>
+        
+
+      </div>
+      <div class="nav-bg-fostrap">
+        <div class="navbar-fostrap"> <span></span> <span></span> <span></span> </div>
+        <a href="" class="title-mobile">Apna Study   <img src="logo.png" align="">
+</a>
+
+      </div>
+
+      <!--<div class="nav-bg-fostrap1">
+      <div class="navbar-fostrap"> <span></span> <span></span> <span></span> </div>
+      <a href="" class="title-mobile1">User    </a>
+  </div>-->
+   
+    </nav>
+   
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+
+
+
+$(document).ready(function(){
+    $('.navbar-fostrap').click(function(){
+      $('.nav-fostrap').toggleClass('visible');
+      $('body').toggleClass('cover-bg');
+    });
+  });
+
+</script>
+
+<!--e hmmmmmm -->
+<div class="row">>
+  <div class="col-3">
+
+<h2>Search Bar</h2>
+
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!--e hmmmmmm -->
+<!-- CONTENT -->
+
+     <h1>Suggested Topics</h1>
+
+      <div class="containercontent">
+   <ul> 
+    <div class="cards">
+    
+       <li> <div class="title">Geography </div>
+                 <p class="top">10 Questions&ensp; &nbsp;&emsp;&emsp;&emsp;2hr 30mins</p>         
+                 
+             </li>
+           
+      <li> <div class="title">Economics </div>
+                 <p class="top"> 10 Questions&ensp; &nbsp;&emsp;&emsp;&emsp;2hr 30mins</p>         
+                 
+                  </li>
+        <li> <div class="title">History</div>
+            <p class="top">10 Questions &ensp;&nbsp;&emsp;&emsp;&emsp;2hr 30mins</p></li>
+         
+    
+        <li> <div class="title">Politics</div>
+            <p class="top">10 Questions&ensp;&nbsp; &emsp;&emsp;&emsp;2hr 30mins</p></li>
+        
+    
+        <button class="more"> more </button>
+   </ul>
+   </div>
+
+  
+  
+</div>
+
+<h1>Suggested Test</h1>
+     <div class="containercontent">
+   <ul> 
+             <li> <div class="h1">Chemistry </div>
+                 <hr>
+                 <p class="ques">Questions  &ensp;&nbsp;&emsp;&emsp;&emsp;<b>10</b> </p>
+                 <p class="ques">Time  &ensp;&nbsp;&emsp;&emsp;&emsp;<b>2hr 30mins</b> </p>
+                 <button class="attempt"> Attempt </button>
+             </li>
+      
+     
+             <li> <div class="h1">Physics</div>
+                 <hr>
+                  <p class="ques">Questions  &ensp;&nbsp&emsp;&emsp;&emsp;<b>10</b> </p>
+                  <p class="ques">Time  &ensp;&nbsp;&emsp;&emsp;&emsp;<b>2hr 30mins</b> </p>
+             <button class="attempt"> Attempt </button></li>
+      
+             <li> <div class="h1">Biology</div>
+                 <hr>
+                 <p class="ques"> Questions  &ensp;&nbsp;&emsp;&emsp;&emsp; <b>10</b></p>
+                 <p class="ques"> Time  &ensp;&nbsp;&emsp;&emsp;&emsp;<b>2hr 30mins</b></p>
+                 <button class="attempt"> Attempt </button></li>
+             <li> <div class="h1">Mathematics</div>
+                 <hr>
+                  <p class="ques">Questions  &ensp;&nbsp;&emsp;&emsp;&emsp;<b>10</b> </p>
+                  <p class="ques">Time &ensp;&nbsp;&emsp;&emsp;&emsp; <b>2hr 30mins</b> </p>
+                 <button class="attempt"> Attempt </button></li>
+      
+         
+             <button class="more"> more </button>
+   </ul>
+  
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-- end content -->
+</body>
+
+</html>
